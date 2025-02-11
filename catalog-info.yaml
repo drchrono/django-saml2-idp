@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: django-saml2-idp
+  description: Authenticate users for your Django web app against a SAML 2.0 Identity
+    Provider.
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/django-saml2-idp
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Python
+    - HTML
+    - Shell
